@@ -1,9 +1,16 @@
 @import 'variables';
 
-.product-micro-card {
-  width: 280px;
+.product-micro-card-img {
+  width: 360px;
   text-align: center;
   margin-bottom: 65px;
+}
+
+.product-micro-card {
+  width: 380px;
+  text-align: center;
+  margin-bottom: 65px;
+  border: 1px solid #747272;
 
   &:not(:nth-of-type(4n)) {
     margin-right: 35px;
