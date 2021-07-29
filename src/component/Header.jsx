@@ -1,5 +1,5 @@
 import React from 'react';
-import Category from "./Category";
+import Menu from "./Menu";
 
 function Header(){
 
@@ -7,7 +7,7 @@ function Header(){
 
 return (
     <div>
-        <Category items={categoriesList}/>
+        <Menu/>
     </div>
 )
 }
